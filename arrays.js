@@ -22,6 +22,8 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("Opgave 4b", catsArray.find(cat => cat === "Salem"));
     
     //--------opgave 5 catArray----------------------
+    let newArrayMultipliedBy3 = numbersArray.map(number => number*3);
+    console.log("Opgave 5", newArrayMultipliedBy3);
     
     
 
