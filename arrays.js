@@ -36,6 +36,11 @@ document.addEventListener("DOMContentLoaded", function() {
     //--------------Opgave 8 dogsAarry ----------------------
     let newDogsArray = dogsArray.filter(dog => dog !== "Polly");
     console.log("Opgave 8", newDogsArray);
-    
+
+    //--------------Ekstra Opgave ----------------------------
+    let sum = numbersArray.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+    console.log(sum);
+
+
 
 }) // ends DOMContentLoaded
