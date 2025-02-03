@@ -5,5 +5,8 @@ document.addEventListener("DOMContentLoaded", function() {
     let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21]
 
     // --- Løs opgaverne herunder --- 
+   
+    let newArrayNumbers = numbersArray.filter(num => num > 20);
+    console.log(newArrayNumbers);
 
 }) // ends DOMContentLoaded
