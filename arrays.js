@@ -33,6 +33,9 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("opgave 7a", fruitsArray.indexOf("Mango"));
     console.log("opgave 7b", fruitsArray.indexOf("Blåbær"));
     
+    //--------------Opgave 8 dogsAarry ----------------------
+    let newDogsArray = dogsArray.filter(dog => dog !== "Polly");
+    console.log("Opgave 8", newDogsArray);
     
 
 }) // ends DOMContentLoaded
