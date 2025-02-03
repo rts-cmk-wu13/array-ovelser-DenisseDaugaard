@@ -4,9 +4,14 @@ document.addEventListener("DOMContentLoaded", function() {
     let fruitsArray = ["Banana", "Orange", "Pineapple", "Mango", "Plum", "Apricot"]
     let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21]
 
-    // --- Løs opgaverne herunder --- 
+    // --- Løs opgaverne herunder numbers of arrays --- 
    
     let newArrayNumbers = numbersArray.filter(num => num > 20);
-    console.log(newArrayNumbers);
+    console.log("opgave 1", newArrayNumbers);
+
+    // -------opgave 2 cats array -------------------- 
+    catsArray.push( "Sniffles")
+    console.log("Opgave 2", catsArray);
+    
 
 }) // ends DOMContentLoaded
