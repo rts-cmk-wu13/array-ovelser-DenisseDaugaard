@@ -24,7 +24,11 @@ document.addEventListener("DOMContentLoaded", function() {
     //--------opgave 5 catArray----------------------
     let newArrayMultipliedBy3 = numbersArray.map(number => number*3);
     console.log("Opgave 5", newArrayMultipliedBy3);
+
+    //--------opgave 6 dogArray ------------------------------
+    let dogsString = dogsArray.join("")
+    console.log(dogsString);
     
-    
+    //--------opgave 7 
 
 }) // ends DOMContentLoaded
