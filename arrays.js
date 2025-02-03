@@ -17,6 +17,11 @@ document.addEventListener("DOMContentLoaded", function() {
     dogsArray.includes( "Trixie")
     console.log("Opgave 3", dogsArray.includes( "Trixie"));
     
+    //--------opgave 4 cats array -------------------
+    console.log("Opgave 4a", catsArray.find(cat => cat === 'banana'));
+    console.log("Opgave 4b", catsArray.find(cat => cat === "Salem"));
+    
+    //--------opgave 5 catArray----------------------
     
     
 
